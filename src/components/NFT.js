@@ -5,7 +5,7 @@ const NFT = () => {
     <section>
       <div className="container my-5">
         <div className="row justify-content-center">
-          <div className="col-md-8 col-lg-6 col-xl-4">
+          <div className="col-md-6 col">
             <div className="card-body ">
               <div className="card text-white border-0">
                 <i className="fab fa-apple fa-lg pt-3 pb-1 px-3"></i>
