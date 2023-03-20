@@ -6,8 +6,8 @@ const Test = (props) => {
   return (
     <div className="container my-5 ">
       <div class="row justify-content-center">
-        <div class="col-lg-4  col-md-4 col-12">
-          <div class="card border-white " style={{ width: "200px" }}>
+        <div class="col-lg-2  col-md-4 col-sm-6">
+          <div class="card border-white ">
             <img
               src={pic1}
               alt="images ho "
@@ -23,8 +23,8 @@ const Test = (props) => {
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-4 col-12">
-          <div class="card border-white" style={{ width: "200px" }}>
+        <div class="col-lg-2 col-md-4 col-sm-6">
+          <div class="card border-white">
             <img
               src={pic1}
               alt="images ho "
@@ -40,14 +40,65 @@ const Test = (props) => {
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-4 col-12">
-          <div class="card border-white" style={{ width: "200px" }}>
+        <div class="col-lg-2 col-md-4 col-sm-6">
+          <div class="card border-white">
+            <img
+              src={pic1}
+              alt="images ho "
+              className="object-fit-cover border rounded"
+            />
+            <div class="card-header">Heading 2</div>
+            <div class="card-body">
+              <p class="card-text text-info">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-4 col-sm-6">
+          <div class="card border-white">
+            <img
+              src={pic1}
+              alt="images ho "
+              className="object-fit-cover border rounded"
+            />
+            <div class="card-header">Heading 2</div>
+            <div class="card-body">
+              <p class="card-text text-info">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-4 col-sm-6">
+          <div class="card border-white">
+            <img
+              src={pic1}
+              alt="images ho "
+              className="object-fit-cover border rounded"
+            />
+            <div class="card-header">Heading 2</div>
+            <div class="card-body">
+              <p class="card-text text-info">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-4 col-sm-6 ">
+          <div class="card border-white">
             <img
               src={pic1}
               alt="images ho "
               className="object-fit-none border rounded"
             />
-            <div class="card-header">Heading 2</div>
+            <div class="card-header padding-0 nopadding">Heading 2</div>
             <div class="card-body">
               <p class="card-text text-info">
                 Some quick example text to build on the card title and make up
