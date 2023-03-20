@@ -5,8 +5,8 @@ import NFT from "./NFT";
 const Test = (props) => {
   return (
     <div className="container my-5 ">
-      <div class="row justify-content-center">
-        <div class="col-lg-2  col-md-4 col-sm-6">
+      <div class="row  ">
+        <div class="col-lg-2  col-md-4 col-sm-6 mt-5 ">
           <div class="card border-white ">
             <img
               src={pic1}
@@ -23,7 +23,7 @@ const Test = (props) => {
           </div>
         </div>
 
-        <div class="col-lg-2 col-md-4 col-sm-6">
+        <div class="col-lg-2 col-md-4 col-sm-6 mt-5">
           <div class="card border-white">
             <img
               src={pic1}
@@ -40,7 +40,7 @@ const Test = (props) => {
           </div>
         </div>
 
-        <div class="col-lg-2 col-md-4 col-sm-6">
+        <div class="col-lg-2 col-md-4 col-sm-6 mt-5">
           <div class="card border-white">
             <img
               src={pic1}
@@ -57,7 +57,7 @@ const Test = (props) => {
           </div>
         </div>
 
-        <div class="col-lg-2 col-md-4 col-sm-6">
+        <div class="col-lg-2 col-md-4 col-sm-6 mt-5">
           <div class="card border-white">
             <img
               src={pic1}
@@ -74,7 +74,7 @@ const Test = (props) => {
           </div>
         </div>
 
-        <div class="col-lg-2 col-md-4 col-sm-6">
+        <div class="col-lg-2 col-md-4 col-sm-6 mt-5">
           <div class="card border-white">
             <img
               src={pic1}
@@ -91,7 +91,7 @@ const Test = (props) => {
           </div>
         </div>
 
-        <div class="col-lg-2 col-md-4 col-sm-6 ">
+        <div class="col-lg-2 col-md-4 col-sm-6 mt-5">
           <div class="card border-white">
             <img
               src={pic1}

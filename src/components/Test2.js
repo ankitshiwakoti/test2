@@ -5,9 +5,9 @@ import NFT from "./NFT";
 const Test1 = (props) => {
   return (
     <div className="container my-5">
-      <div className="row justify-content-center align-items-center">
+      <div className="row justify-content-center align-items-center m-t-4">
         <div className="col-lg-6 border-0">
-          <div className="card border-white  " style={{ width: "200px" }}>
+          <div className="card border-white  ">
             <img src={pic1} alt="hehe" className="rounded float-start" />
             {/* <div class="card-header"></div>
 
@@ -18,7 +18,7 @@ const Test1 = (props) => {
         </div>
 
         <div className="col-lg-6 border-0">
-          <div className="card-border-white" style={{ width: "200px" }}>
+          <div className="card-border-white">
             <div className="card-header">header 1</div>
             <div className="card-body">
               <p class="card-text text-info">
