@@ -4,6 +4,7 @@ import NFT from "./components/NFT";
 import Test from "./components/Test";
 import Test2 from "./components/Test2";
 import pic1 from "../src/images/img1.jpg";
+import Sample from "./components/Sample";
 
 function App() {
   const data = [
@@ -46,7 +47,8 @@ function App() {
   ];
   return (
     <div className="App">
-      <Test data={data} />
+      <Sample />
+      {/* <Test data={data} /> */}
       {/* <NFT /> */}
     </div>
   );

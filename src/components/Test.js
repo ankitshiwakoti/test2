@@ -5,6 +5,7 @@ import NFT from "./NFT";
 const Test = ({ data }) => {
   return (
     <div className="container my-5 ">
+      <button className="btn-primary"> Next project</button>
       <div className="row">
         {data?.map((items) => (
           <div class="col-lg-2  col-md-4 col-sm-6 mt-5 " id={items.id}>
