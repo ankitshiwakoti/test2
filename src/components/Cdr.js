@@ -30,8 +30,8 @@ const Cdr = () => {
                   src={items?.image?.data?.attributes?.url}
                   className="img-fluid mt-2 ms-1 "
                   alt="images "
-                  height={40}
-                  width={40}
+                  height={20}
+                  width={20}
                 />
               </div>
             </div>
@@ -39,7 +39,7 @@ const Cdr = () => {
               <div className="card-body ">
                 <h5 className="card-title text-start ">{items?.title}</h5>
 
-                <p className="card-text mt-2 text-start ">
+                <p className="card-text mt-2 text-start">
                   {parse(items.paragraph)}
                 </p>
               </div>
