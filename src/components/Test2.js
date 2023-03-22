@@ -5,10 +5,10 @@ import NFT from "./NFT";
 const Test1 = (props) => {
   return (
     <div className="container my-5">
-      <div className="row ">
-        <div className="col-lg-6 border-0  mt-4">
-          <div className="card border-white  ">
-            <img src={pic1} alt="hehe" className="rounded float-start" />
+      <div className="row  align iteams-center ms-5">
+        <div className="col-lg-6   mt-4 ">
+          <div className="  ">
+            <img src={pic1} alt="hehe" className="img-fluid" />
             {/* <div class="card-header"></div>
 
             <div class="card-body">
@@ -17,7 +17,7 @@ const Test1 = (props) => {
           </div>
         </div>
 
-        <div className="col-lg-6 border-0  mt-4 ">
+        <div className="col-lg-6  mt-4">
           <div className="card-border-white">
             <div className="card-header">header 1</div>
             <div className="card-body">

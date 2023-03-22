@@ -1,7 +1,7 @@
 body {
-  background-color: hsl(225, 3%, 25%);
+  background-color: rgb(237, 240, 245);
 }
-.card-body {
+/* .card-body {
   background-color: hsl(225, 3%, 25%);
 }
 .card.text-white {
@@ -27,4 +27,7 @@ body {
 }
 .text-color {
   color: hsl(150, 100%, 100%);
+} */
+.cdd {
+  background-color: rgb(181, 171, 158);
 }

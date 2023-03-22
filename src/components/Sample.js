@@ -3,11 +3,11 @@ import pic1 from "../images/iccc.png";
 
 const Sample = () => {
   return (
-    <div className="container  padding-0">
+    <div className="container">
       <button className="btn-primary"> Next project</button>
       <div className="row justify-content-start ">
         {new Array(6).fill("").map((items) => (
-          <div class="col col-lg-4  col-sm-6 mt-5 ">
+          <div class="col-lg-4  col-sm-6 mt-5 ">
             <div className=" text-start  mt-2 ">
               <img src={pic1} alt="images ho " className="img-fluid mt-2" />
               <div class="text-color mt-4 ">Welcome</div>

@@ -5,6 +5,8 @@ import Test from "./components/Test";
 import Test2 from "./components/Test2";
 import pic1 from "../src/images/img1.jpg";
 import Sample from "./components/Sample";
+import Cdr from "./components/Cdr";
+import CDR1 from "./components/CDR1";
 
 function App() {
   const data = [
@@ -47,7 +49,9 @@ function App() {
   ];
   return (
     <div className="App">
-      <Sample />
+      <Cdr />
+      {/* <Test2 /> */}
+      {/* <Sample /> */}
       {/* <Test data={data} /> */}
       {/* <NFT /> */}
     </div>
