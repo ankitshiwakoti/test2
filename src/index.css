@@ -31,3 +31,14 @@ body {
 .cdd {
   background-color: rgb(181, 171, 158);
 }
+.circular--portrait {
+  position: relative;
+  width: 100px;
+
+  overflow: hidden;
+  border-radius: 20%;
+}
+
+.circular--portrait img {
+  max-width: 50%;
+}
