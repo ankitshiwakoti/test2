@@ -21,32 +21,30 @@ const Cdr = () => {
   return (
     <div className="container">
       <h2 className="mt-4">Expert CDR Report Writing Service in Australia</h2>
-      <div className="row justify-content-center  text-align-left mt-4  ">
+      <div className="row   mt-4 ">
         {post?.map((items) => (
-          <>
-            <div
-              className="  cdd col-lg-2 col-md-2 col-sm-4 mt-1 ms-1 "
-              style={{ width: "150px" }}
-              id={items.id}
-            >
-              <div className="circular--portrait">
+          <div className="d-flex col-lg-6 col-12 px-1 mb-2 " id={items?.id}>
+            <div className="  cdd col-lg-2 col-md-4 col-6  ">
+              <div className="circular--portrait mt-3 ms-3">
                 <img
-                  src={items.image.data.attributes.url}
-                  className="rounded-circle shadow-4-strong mt-2 "
-                  alt="..."
+                  src={items?.image?.data?.attributes?.url}
+                  className="img-fluid mt-2 ms-1 "
+                  alt="images "
+                  height={40}
+                  width={40}
                 />
               </div>
             </div>
-            <div className=" cdd col-lg-4 col-md-3 col-sm-6 mt-1  ">
-              <div className="card-body">
-                <h5 className="card-title text-start">{items.title}</h5>
+            <div className=" cdd col-lg-10 col-md-8 col-6  ">
+              <div className="card-body ">
+                <h5 className="card-title text-start ">{items?.title}</h5>
 
-                <p className="card-text mt-2 text-start">
+                <p className="card-text mt-2 text-start ">
                   {parse(items.paragraph)}
                 </p>
               </div>
             </div>
-          </>
+          </div>
         ))}
       </div>
     </div>
