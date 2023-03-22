@@ -24,8 +24,8 @@ const Cdr = () => {
       <div className="row   mt-4 ">
         {post?.map((items) => (
           <div className="d-flex col-lg-6 col-12 px-1 mb-2 " id={items?.id}>
-            <div className="  cdd col-lg-2 col-md-4 col-6  ">
-              <div className="circular--portrait mt-3 ms-3">
+            <div className="  cdd col-lg-2 col-md-2 col-2  ">
+              <div className="circular--portrait mt-3 ms-4 ">
                 <img
                   src={items?.image?.data?.attributes?.url}
                   className="img-fluid mt-2 ms-1 "
@@ -35,7 +35,7 @@ const Cdr = () => {
                 />
               </div>
             </div>
-            <div className=" cdd col-lg-10 col-md-8 col-6  ">
+            <div className=" cdd col-lg-10 col-md-10 col-10 ">
               <div className="card-body ">
                 <h5 className="card-title text-start ">{items?.title}</h5>
 
