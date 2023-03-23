@@ -8,6 +8,7 @@ import Sample from "./components/Sample";
 import Cdr from "./components/Cdr";
 import CDR1 from "./components/CDR1";
 import Main from "./components/Main";
+import Vnabs from "./components/Vnabs";
 
 function App() {
   const data = [
@@ -73,9 +74,53 @@ function App() {
       id: 3,
     },
   ];
+
+  const cdr = [
+    {
+      button: "1",
+      head1:
+        " Here's How you can get a flawless CDR Report writing for engineers Australia",
+      body1:
+        "This is just the sample word he problem implicitly. State-space ofa problem is a set of all states which the problemimplicitlyStatespace of a problem is a set of all states which can be reached from the initial state followed by any sequence of actions. The state-space forms a directed map or graph where node are the states, links between the nodes are actions, and the pathThe state-space forms a directed map or graph where nodes are tthrstates, links between the The state-space forms a directed map or graph",
+      head2: "Get your quality CDR report button 1",
+      body2:
+        " Go through your top quality CDR report before your deadline at the best prices.Also,you can ask for amendments if requires.",
+    },
+    {
+      button: "2",
+      head1:
+        " Here's How you can get a flawless CDR Report writing for engineers Australia Button 2",
+      body1:
+        "This is just the sample word he problem implicitly. State-space ofa problem is a set of all states which the problemimplicitlyStatespace of a problem is a set of all states which can be reached from the initial state followed by any sequence of actions. The state-space forms a directed map or graph where node are the states, links between the nodes are actions, and the pathThe state-space forms a directed map or graph where nodes are tthrstates, links between the The state-space forms a directed map or graph",
+      head2: "Get your quality CDR report button 2.",
+      body2:
+        " Go through your top quality CDR report before your deadline at the best prices.Also,you can ask for amendments if requires.",
+    },
+    {
+      button: "3",
+      head1:
+        " Here's How you can get a flawless CDR Report writing for engineers Australia Button 3",
+      body1:
+        "This is just the sample word he problem implicitly. State-space ofa problem is a set of all states which the problemimplicitlyStatespace of a problem is a set of all states which can be reached from the initial state followed by any sequence of actions. The state-space forms a directed map or graph where node are the states, links between the nodes are actions, and the pathThe state-space forms a directed map or graph where nodes are tthrstates, links between the The state-space forms a directed map or graph",
+      head2: "Get your quality CDR report button 3.",
+      body2:
+        " Go through your top quality CDR report before your deadline at the best prices.Also,you can ask for amendments if requires.",
+    },
+    {
+      button: "4",
+      head1:
+        " Here's How you can get a flawless CDR Report writing for engineers Australia Button 4",
+      body1:
+        "This is just the sample word he problem implicitly. State-space ofa problem is a set of all states which the problemimplicitlyStatespace of a problem is a set of all states which can be reached from the initial state followed by any sequence of actions. The state-space forms a directed map or graph where node are the states, links between the nodes are actions, and the pathThe state-space forms a directed map or graph where nodes are tthrstates, links between the The state-space forms a directed map or graph",
+      head2: "Get your quality CDR report button 4.",
+      body2:
+        " Go through your top quality CDR report before your deadline at the best prices.Also,you can ask for amendments if requires.",
+    },
+  ];
   return (
     <div className="App">
-      <Main data={sample} />
+      <Vnabs data={cdr} />
+      {/* <Main data={sample} /> */}
       {/* <Cdr /> */}
       {/* <Test2 /> */}
       {/* <Sample /> */}

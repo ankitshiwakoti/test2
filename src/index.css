@@ -35,15 +35,26 @@ body {
   /* border: 60px;
   background-color: rgb(11, 12, 52); */
 
-  background: #122a6c;
+  /* background: #122a6c; */
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  margin-top: 20px;
+  margin-top: 10px;
   align-items: center;
   text-align: center;
+  /* grid-area: overlap;
+  align-self: center;
+  justify-self: center; */
 }
 
 .circular--portrait img {
   max-width: 50%;
+}
+.bb {
+  background: #122a6c;
+  width: 30px;
+  height: 30px;
+}
+.cc {
+  margin-top: 280px;
 }
