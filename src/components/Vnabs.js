@@ -11,11 +11,11 @@ const Vnabs = ({ data }) => {
           <div className="col-12 position-absolute start-50 top-50 bottom-50  translate-middle-y">
             {data?.map((items) => (
               <div
-                className=" d-flex align-items-center justify-content-center col-12  "
+                className=" d-flex  justify-content-center col-12  "
                 key={items.id}
               >
                 <button
-                  className={`circular--portrait border-0 ${
+                  className={`circular--portrait border-0 fw-bold ${
                     active === items?.button
                       ? "text-white bg-dark  "
                       : "text-black  bg-light bg-gradient "

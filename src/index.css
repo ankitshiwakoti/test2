@@ -36,8 +36,8 @@ body {
   background-color: rgb(11, 12, 52); */
 
   /* background: #122a6c; */
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
   margin-top: 10px;
   align-items: center;
@@ -56,5 +56,5 @@ body {
   height: 30px;
 }
 .cc {
-  margin-top: 280px;
+  margin-top: 250px;
 }
