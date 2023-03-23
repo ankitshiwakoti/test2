@@ -8,10 +8,10 @@ const Vnabs = ({ data }) => {
     <div className="container-fluid">
       <div className="row">
         <div className="col-1 bg-primary p-0  position-relative ">
-          <div className="col-12 position-absolute top-50 bottom-100  translate-middle-y">
+          <div className="col-12 position-absolute start-50 top-50 bottom-50  translate-middle-y">
             {data?.map((items) => (
               <div
-                className=" position-relative d-flex align-items-center justify-content-center col-12 ms-5 "
+                className=" d-flex align-items-center justify-content-center col-12  "
                 key={items.id}
               >
                 <button
