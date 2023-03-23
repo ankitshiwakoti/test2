@@ -97,7 +97,7 @@ const Vnabs = ({ data }) => {
                 )}
 
                 <h1 className="text-start ms-5">
-                  Get Started <i class="bi bi-check-circle-fill me-3"> </i>
+                  Get Started <i class="bi bi-arrow-right"></i>
                 </h1>
               </div>
               <div class="col-4 mb-4">
