@@ -1,5 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: rgb(237, 240, 245);
+  overflow-x: hidden;
 }
 /* .card-body {
   background-color: hsl(225, 3%, 25%);
