@@ -4,8 +4,10 @@ import pic1 from "../images/iccc.png";
 const Sample = () => {
   return (
     <div className="container">
-      <button className="btn-primary"> Next project</button>
-      <div className="row justify-content-start ">
+      <div
+        className="row justify-content-start  "
+        style={{ backgroundColor: "aquamarine" }}
+      >
         {new Array(6).fill("").map((items) => (
           <div class="col-lg-4  col-sm-6 mt-5 ">
             <div className=" text-start  mt-2 ">

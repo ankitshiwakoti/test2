@@ -9,6 +9,9 @@ import Cdr from "./components/Cdr";
 import CDR1 from "./components/CDR1";
 import Main from "./components/Main";
 import Vnabs from "./components/Vnabs";
+import Dflex from "./components/Dflex";
+import Hire from "./components/Hire";
+import Landingp from "./components/Landingp";
 
 function App() {
   const data = [
@@ -119,13 +122,16 @@ function App() {
   ];
   return (
     <div className="App">
-      <Vnabs data={cdr} />
+      {/* <Hire /> */}
+      {/* <Dflex /> */}
+      {/* <Vnabs data={cdr} /> */}
       {/* <Main data={sample} /> */}
       {/* <Cdr /> */}
-      {/* <Test2 /> */}
+      {/* <Test1 /> */}
       {/* <Sample /> */}
       {/* <Test data={data} /> */}
       {/* <NFT /> */}
+      <Landingp />
     </div>
   );
 }

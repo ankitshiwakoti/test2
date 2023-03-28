@@ -6,7 +6,7 @@ const Vnabs = ({ data }) => {
   const [active, setActive] = useState(data[0]?.button);
   return (
     <div className="container-fluid">
-      <div className="row">
+      <div className="row ">
         <div className="col-1 bg-primary p-0  position-relative ">
           <div className="col-12 position-absolute start-50 top-50 bottom-50  translate-middle-y">
             {data?.map((items) => (

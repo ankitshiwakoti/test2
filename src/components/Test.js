@@ -6,7 +6,7 @@ const Test = ({ data }) => {
   return (
     <div className="container my-5 ">
       <button className="btn-primary"> Next project</button>
-      <div className="row">
+      <div className="row" style={{ backgroundColor: "azure" }}>
         {data?.map((items) => (
           <div class="col-lg-2  col-md-4 col-sm-6 mt-5 " id={items.id}>
             <div class="card border-white ">
@@ -15,9 +15,14 @@ const Test = ({ data }) => {
                 alt="images ho "
                 className="object-fit-contain border rounded"
               />
-              <div class="card-header">{items.heading}</div>
-              <div class="card-body">
-                <p class="card-text text-info">{items.body}</p>
+              <div class="card-header" style={{ backgroundColor: "darkgrey" }}>
+                {items.heading}
+              </div>
+              <div
+                class="card-body"
+                style={{ backgroundColor: "currentColor" }}
+              >
+                <p class="card-text text-white"> {items.body}</p>
               </div>
             </div>
           </div>
