@@ -255,6 +255,32 @@ const Landingp = () => {
                   </p>
                 </div>
               </Row>
+              <Row>
+                <div className="col-md-4">
+                  <img src={img2} className="img-fluid" alt="image" />
+                </div>
+                <div className="col-md-6">
+                  <h2> this is just a sample bord</h2>
+                  <p>
+                    li dsdadb qng eb e fbsdffbff bsdfbr ee er r ddj erfjf e er
+                    reg qere;ruh n r qrf ereg eer ererg er ergee rgdnveru bebb
+                    bbuib uejbn tnb j bnu n bubb sfijbksf
+                  </p>
+                </div>
+              </Row>
+              <Row>
+                <div className="col-md-4">
+                  <img src={img2} className="img-fluid" alt="image" />
+                </div>
+                <div className="col-md-6">
+                  <h2> this is just a sample bord</h2>
+                  <p>
+                    li dsdadb qng eb e fbsdffbff bsdfbr ee er r ddj erfjf e er
+                    reg qere;ruh n r qrf ereg eer ererg er ergee rgdnveru bebb
+                    bbuib uejbn tnb j bnu n bubb sfijbksf
+                  </p>
+                </div>
+              </Row>
             </Slider>
           </Row>
         </div>
