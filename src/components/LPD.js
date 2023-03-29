@@ -27,7 +27,7 @@ const LPD = () => {
             <div class="card-body  justify-content-start d-flex  border-0">
               <button
                 class=" btn btn-white text-dark fw-bold border-dark rounded "
-                style={{ width: "80%" }}
+                style={{ width: "70%" }}
               >
                 Apply now
               </button>
