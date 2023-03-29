@@ -17,6 +17,7 @@ const Cdr = () => {
   });
   //   const data = api.data.data.attributes;
   const html = "<div>Example HTML string</div>";
+  console.log(post);
 
   return (
     <div className="container">

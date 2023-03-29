@@ -12,6 +12,8 @@ import Vnabs from "./components/Vnabs";
 import Dflex from "./components/Dflex";
 import Hire from "./components/Hire";
 import Landingp from "./components/Landingp";
+import Tabs_LoadMore from "./components/Tabs_LoadMore";
+import LPD from "./components/LPD";
 
 function App() {
   const data = [
@@ -131,7 +133,10 @@ function App() {
       {/* <Sample /> */}
       {/* <Test data={data} /> */}
       {/* <NFT /> */}
-      <Landingp />
+      {/* <Landingp /> */}
+      {/* <Tabs_LoadMore /> */}
+      {/* <Tabs /> */}
+      <LPD />
     </div>
   );
 }
