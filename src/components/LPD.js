@@ -16,11 +16,9 @@ const LPD = () => {
               style={{ fontSize: "14px" }}
             >
               <li class="list-group-item border-0">
-                {" "}
                 <i class="bi bi-compass"> </i> Kathmandu,NP
               </li>
               <li class="list-group-item border-0">
-                {" "}
                 <i class="bi bi-clock"> </i> Full Time
               </li>
             </ul>
