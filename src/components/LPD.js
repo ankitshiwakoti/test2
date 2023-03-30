@@ -5,7 +5,7 @@ const LPD = () => {
     <div className="container-fluid bg-white">
       <div className="row border-0">
         {new Array(8).fill(" ").map((items) => (
-          <div class=" col-md-3 card margin-0 border-0 mt-2">
+          <div class=" col-md-3 col-sm-12 col-lg-3 ms-sm-5 card m-md-0 border-0 mt-2">
             <div class="card-body pt-5 border-0">
               <h5 class="card-title   border-0 text-start">
                 Lead Program Design
@@ -26,8 +26,8 @@ const LPD = () => {
             </ul>
             <div class="card-body  justify-content-start d-flex  border-0">
               <button
-                class=" btn btn-white text-dark fw-bold border-dark rounded "
-                style={{ width: "70%" }}
+                class="button btn btn-white text-dark fw-bold border-dark rounded "
+                // style={{ width: "70%" }}
               >
                 Apply now
               </button>

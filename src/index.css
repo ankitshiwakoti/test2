@@ -72,3 +72,12 @@ body {
   align-items: center;
   text-align: center;
 }
+
+.button:hover {
+  background-color: #002ead;
+  transition: 0.7s;
+}
+
+.button:active {
+  background-color: #ffbf00;
+}
