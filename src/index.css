@@ -3,11 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+/* yo ailay ko lagi matrai */
 body {
-  background-color: rgb(237, 240, 245);
+  background-color: rgb(254, 254, 254);
   overflow-x: hidden;
 }
+/* ya samman */
+/* body {
+  background-color: rgb(237, 240, 245);
+  overflow-x: hidden;
+} */
 /* .card-body {
   background-color: hsl(225, 3%, 25%);
 }
