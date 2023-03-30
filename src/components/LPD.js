@@ -5,7 +5,7 @@ const LPD = () => {
     <div className="container bg-white">
       <div className="row border-0">
         {new Array(8).fill(" ").map((items) => (
-          <div class=" col-sm-6  col-md-4 col-lg-3  card m-md-0 border-0 mt-2">
+          <div class=" col-sm-6  col-md-4 col-lg-3  card m-md-0 border-0 mt-5 pt-5">
             <div class="card-body pt-5 border-0">
               <h5 class="card-title   border-0 text-start">
                 Lead Program Design

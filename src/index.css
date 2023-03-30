@@ -84,7 +84,7 @@ body {
 .button:active {
   background-color: #ffbf00;
 }
-@media (max-width: 600px) {
+@media (max-width: 580px) {
   .button {
     width: 50%;
   }
