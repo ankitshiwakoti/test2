@@ -2,10 +2,10 @@ import React from "react";
 
 const LPD = () => {
   return (
-    <div className="container-fluid bg-white">
+    <div className="container bg-white">
       <div className="row border-0">
         {new Array(8).fill(" ").map((items) => (
-          <div class=" col-md-3 col-sm-12 col-lg-3 ms-sm-5 card m-md-0 border-0 mt-2">
+          <div class=" col-sm-6  col-md-4 col-lg-3  card m-md-0 border-0 mt-2">
             <div class="card-body pt-5 border-0">
               <h5 class="card-title   border-0 text-start">
                 Lead Program Design
@@ -25,10 +25,7 @@ const LPD = () => {
               </li>
             </ul>
             <div class="card-body  justify-content-start d-flex  border-0">
-              <button
-                class="button btn btn-white text-dark fw-bold border-dark rounded "
-                // style={{ width: "70%" }}
-              >
+              <button class="button btn btn-white text-dark fw-bold border-dark rounded ">
                 Apply now
               </button>
             </div>
