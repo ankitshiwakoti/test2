@@ -133,10 +133,10 @@ function App() {
       {/* <Sample /> */}
       {/* <Test data={data} /> */}
       {/* <NFT /> */}
-      {/* <Landingp /> */}
+      <Landingp />
       {/* <Tabs_LoadMore /> */}
       {/* <Tabs /> */}
-      <LPD />
+      {/* <LPD /> */}
     </div>
   );
 }
