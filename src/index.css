@@ -4,15 +4,15 @@
   box-sizing: border-box;
 }
 /* yo ailay ko lagi matrai */
-body {
+/* body {
   background-color: rgb(254, 254, 254);
   overflow-x: hidden;
-}
+} */
 /* ya samman */
-/* body {
+body {
   background-color: rgb(237, 240, 245);
   overflow-x: hidden;
-} */
+}
 /* .card-body {
   background-color: hsl(225, 3%, 25%);
 }
@@ -81,7 +81,7 @@ body {
   text-align: center;
 }
 
-.button:hover {
+/* .button:hover {
   background-color: #002ead;
   transition: 0.7s;
 }
@@ -93,4 +93,4 @@ body {
   .button {
     width: 50%;
   }
-}
+} */
