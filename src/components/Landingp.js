@@ -135,7 +135,7 @@ const Landingp = () => {
               Get a Demo
             </button>
           </div>
-          <div className="col-sm-12 col-md-6  m-auto ml-lg-auto mr-lg-0 col-lg-6 pt-5 pt-lg-0">
+          <div className="col-sm-12 col-md-5  m-auto ml-lg-auto mr-lg-0 col-lg-5 pt-5 pt-lg-0">
             <img alt="image" className="img-fluid" src={img1} />
           </div>
         </section>
